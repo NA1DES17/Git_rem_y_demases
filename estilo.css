@@ -18,7 +18,11 @@ header{
 }
 nav{
 width: var(--wid);
+height: auto;
 border-radius: var(--borde);
+}
+nav li{
+    display: inline-flex;
 }
 section{
     display: inline-block;
@@ -32,9 +36,25 @@ aside{
     border-radius: var(--borde);
     width: 20.5%;
 }
+aside a{
+    font-size: 75%;
+}
+aside h2{
+    text-align: center;
+    font-size: 80%;
+}
+#pub{
+    font-size: 0.7rem;
+}
 footer{
     width: var(--wid);
     border-radius: var(--borde);
     clear: both;
     text-align: center;
+}
+#publi{
+    margin-top: 0 auto;
+    display: block;
+    text-align: center;
+    width: 50px;
 }
