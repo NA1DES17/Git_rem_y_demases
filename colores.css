@@ -1,0 +1,27 @@
+:root{
+    /*colores*/
+    --colorPrincipal:#00796B;
+    --colorSecundario:#B2DFDB;
+    --colorFuentePrincipal:#212121;
+    --colorFuenteSecundario:#7C4DFF;
+    --colorHover:#BDBDBD;
+}
+header{
+    background-image: url(/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow: 3px 2px 2px var(--colorSecundario);
+}
+header, section{
+    background-color: var(--colorSecundario);
+    color: var(--colorFuentePrincipal);
+}
+nav,aside,footer{
+    color: var(--colorFuentePrincipal);
+    background-color: var(--colorPrincipal);
+}
+a{
+    color: var(--colorHover);
+}
