@@ -25,3 +25,7 @@ nav,aside,footer{
 a{
     color: var(--colorHover);
 }
+a:hover{
+    color: var(--colorPrincipal);
+    background:var(--colorFuentePrincipal)
+}
