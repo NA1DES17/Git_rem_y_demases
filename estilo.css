@@ -21,12 +21,20 @@ width: var(--wid);
 border-radius: var(--borde);
 }
 section{
+    display: inline-block;
+    float: left;
     border-radius: var(--borde);
+    width: 75%;
 }
 aside{
+    display:block;
+    float:left;
     border-radius: var(--borde);
+    width: 20.5%;
 }
 footer{
     width: var(--wid);
     border-radius: var(--borde);
+    clear: both;
+    text-align: center;
 }
