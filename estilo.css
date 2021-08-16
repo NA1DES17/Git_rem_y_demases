@@ -1,0 +1,32 @@
+:root{
+    --letraPrincial:16px;
+    --paddingLR:3px;
+    --borde:12px;
+    --wid:96%;
+}
+*{
+    font-size: var(--letraPrincial);
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: var(--paddingLR);
+    padding-right: var(--paddingLR);
+}
+header{
+    width: 96%;
+    height: 100px;
+    border-radius: var(--borde);
+}
+nav{
+width: var(--wid);
+border-radius: var(--borde);
+}
+section{
+    border-radius: var(--borde);
+}
+aside{
+    border-radius: var(--borde);
+}
+footer{
+    width: var(--wid);
+    border-radius: var(--borde);
+}
