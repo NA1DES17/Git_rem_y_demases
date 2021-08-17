@@ -29,3 +29,12 @@ a:hover{
     color: var(--colorPrincipal);
     background:var(--colorFuentePrincipal)
 }
+aside p a:hover{
+    background-color: var(--colorPrincipal);
+}
+nav li a{
+    border-left: solid var(--colorFuentePrincipal);
+}
+nav li a:hover{
+    border-left: solid var(--colorHover);
+}
