@@ -26,15 +26,25 @@ a{
     color: var(--colorHover);
 }
 a:hover{
-    color: var(--colorPrincipal);
-    background:var(--colorFuentePrincipal)
-}
-aside p a:hover{
-    background-color: var(--colorPrincipal);
+    /*color: var(--colorPrincipal);
+    background:var(--colorFuentePrincipal)*/
 }
 nav li a{
     border-left: solid 3px var(--colorFuentePrincipal);
 }
 nav li a:hover{
-    border-left: solid 3px var(--colorHover);
+    color: var(--colorPrincipal);
+}
+nav li a:hover{
+    color: var(--colorPrincipal);
+    background: var(--colorFuentePrincipal);
+    border-left: solid 3px var(--colorSecundario);
+}
+aside li a:hover{
+    color: var(--colorPrincipal);
+    background: var(--colorFuentePrincipal);
+    border-left: solid 3px var(--colorSecundario);
+}
+footer{
+    color: var(--colorSecundario);
 }
