@@ -1,50 +1,53 @@
-:root{
-    /*colores*/
-    --colorPrincipal:#00796B;
-    --colorSecundario:#B2DFDB;
-    --colorFuentePrincipal:#212121;
-    --colorFuenteSecundario:#7C4DFF;
-    --colorHover:#BDBDBD;
+:root {
+	/*colores*/
+	--colorPrincipal: #00796b;
+	--colorSecundario: #b2dfdb;
+	--colorFuentePrincipal: #212121;
+	--colorFuenteSecundario: #7c4dff;
+	--colorHover: #bdbdbd;
 }
-header{
-    background-image: url(/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+	background-image: url(/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-h1{
-    text-shadow: 3px 2px 2px var(--colorSecundario);
+h1 {
+	text-shadow: 3px 2px 2px var(--colorSecundario);
 }
-header, section{
-    background-color: var(--colorSecundario);
-    color: var(--colorFuentePrincipal);
+header,
+section {
+	background-color: var(--colorSecundario);
+	color: var(--colorFuentePrincipal);
 }
-nav,aside,footer{
-    color: var(--colorFuentePrincipal);
-    background-color: var(--colorPrincipal);
+nav,
+aside,
+footer {
+	color: var(--colorFuentePrincipal);
+	background-color: var(--colorPrincipal);
 }
-a{
-    color: var(--colorHover);
+a {
+	color: var(--colorHover);
 }
-a:hover{
-    /*color: var(--colorPrincipal);
+a:hover {
+	/*color: var(--colorPrincipal);
     background:var(--colorFuentePrincipal)*/
 }
-nav li a{
-    border-left: solid 3px var(--colorFuentePrincipal);
+nav li a {
+	border-left: solid 3px var(--colorFuentePrincipal);
 }
-nav li a:hover{
-    color: var(--colorPrincipal);
+nav li a:hover {
+	color: var(--colorPrincipal);
 }
-nav li a:hover{
-    color: var(--colorPrincipal);
-    background: var(--colorFuentePrincipal);
-    border-left: solid 3px var(--colorSecundario);
+nav li a:hover {
+	color: var(--colorPrincipal);
+	background: var(--colorFuentePrincipal);
+	border-left: solid 3px var(--colorSecundario);
 }
-aside li a:hover{
-    color: var(--colorPrincipal);
-    background: var(--colorFuentePrincipal);
-    border-left: solid 3px var(--colorSecundario);
+aside li a:hover {
+	color: var(--colorPrincipal);
+	background: var(--colorFuentePrincipal);
+	border-left: solid 3px var(--colorSecundario);
 }
-footer{
-    color: var(--colorSecundario);
+footer {
+	color: var(--colorSecundario);
 }
